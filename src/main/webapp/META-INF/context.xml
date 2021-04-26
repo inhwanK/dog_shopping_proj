@@ -6,10 +6,10 @@
       type="javax.sql.DataSource" 
       driverClassName="com.mysql.jdbc.Driver"
       factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
-      url="jdbc:mysql://localhost:3306/web_gradle_erp?useSSL=false" 
-      username="user_gradle_erp"
+      url="jdbc:mysql://localhost:3306/shoppingmall?useSSL=false" 
+      username="user_dog_shoppingmall"
       password="rootroot" 
-      maxTotal="100" 
+      maxTotal="10000" 
       maxIdle="10" 
       maxWaitMillis="-1" />
 </Context>
